@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    height: 800px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border: 1px solid green;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+    border-top: 1px solid black;
+}
+
+.days-timer,
+.hours-timer,
+.minutes-timer,
+.seconds-timer {
+    font-size: 45px;
+}
